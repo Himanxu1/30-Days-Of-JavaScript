@@ -1,0 +1,27 @@
+//  CallBack function in JavaScript 
+
+// function myFirst() {
+//     myDisplayer("Hello");
+//   }
+  
+//   function mySecond() {          Here functions are executed sequencially 
+//     myDisplayer("Goodbye");
+//   }
+  
+//   myFirst();
+//   mySecond();
+
+//  CallBack 
+
+function myDisplayer(some) {
+    console.log(some);
+  }
+  
+  function myCalculator(num1, num2, myCallback) {
+    let sum = num1 + num2;
+    myCallback(sum);
+  }
+  
+  myCalculator(5, 5, myDisplayer);
+  
+  
