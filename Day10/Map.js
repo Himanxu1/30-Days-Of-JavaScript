@@ -13,9 +13,9 @@ let arr = [2,3,4,5];
 // console.log(arr1);
 
 //  Anonymous Function
-// let arr1 = arr.map(function(val){
-//       return val * 3;
-// })
+let arr2 = arr.map(function(val){
+      return val * 3;
+})
 
 //  Arrow function
 

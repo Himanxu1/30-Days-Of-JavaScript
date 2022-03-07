@@ -2,7 +2,7 @@
 
 //  Previously
 
-// let arr = [2,4,10,23,34,54]
+let arr3 = [2,4,10,23,34,54]
 
 // let arr1 = [];
 
