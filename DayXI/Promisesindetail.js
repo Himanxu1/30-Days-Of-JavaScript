@@ -37,23 +37,23 @@
 
 // Third Example 
 
-let walk = function(){
-    return new Promise((resolve,reject)=>{
-         resolve("Finished walking")
-    })
-}
+// let walk = function(){
+//     return new Promise((resolve,reject)=>{
+//          resolve("Finished walking")
+//     })
+// }
 
-let breakfast = function(){
-    return new Promise((resolve,reject)=>{
-         resolve("Finished breakfast")
-    })
-}
+// let breakfast = function(){
+//     return new Promise((resolve,reject)=>{
+//          resolve("Finished breakfast")
+//     })
+// }
 
-let lunch = function(){
-    return new Promise((resolve,reject)=>{
-         resolve("Finished lunch")
-    })
-}
+// let lunch = function(){
+//     return new Promise((resolve,reject)=>{
+//          resolve("Finished lunch")
+//     })
+// }
 
 // walk().then((data)=>{
 //     console.log(data);
@@ -65,6 +65,9 @@ let lunch = function(){
 //     console.log(data)
 // })
 
-Promise.all([walk(),breakfast(),lunch()]).then((data)=>{
-    console.log(data);
-})
+// Promise.all([walk(),breakfast(),lunch()]).then((data)=>{
+//     console.log(data);
+// })
+
+
+
